@@ -1,0 +1,23 @@
+p{
+    color: blue;
+}
+button{
+    color: red;
+    margin-left: 20px
+}
+
+option{
+    background-color: aqua;
+    color:blue;
+}
+option.red{
+    color:red;
+
+}
+h1{
+    color: red;
+    margin: 12px;
+}
+select{
+    margin-left: 20px
+}

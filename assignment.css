@@ -1,0 +1,37 @@
+body{
+    box-sizing: border-box;
+}
+input{
+    line-height: 30px;
+    width: 178px;
+    border-top:rgba(0, 0, 0, 0.8) solid ;
+    border-bottom:rgba(0, 0, 0, 0.8) solid ;
+    border-left:rgba(0, 0, 0, 0.8) solid ;
+    border-right:rgba(0, 0, 0, 0.8) solid ;
+    font-size: 18px;
+}
+button{
+    margin: 3px;
+    width: 40px;
+    height: 30px;
+}
+button.first{
+    margin: 0px;
+  
+}
+button.calc{
+    width: 40px;
+}
+
+#all{
+    background-color: rgba(0, 0, 0, 0.4);
+height: 268px;
+width: 178px;
+border: solid 1px red
+}
+h1{
+    margin-bottom: 1px;
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: blue
+}
