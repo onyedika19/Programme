@@ -1,0 +1,51 @@
+<head>
+    <link href="Word-Game.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="LOGO.jpg" type="image/jpg">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <title>Word Game</title>
+</head>
+
+<body>
+
+    <div class="top"> Word Game&#x264B;</div>
+    <div class="under">
+        <div class="rules">
+            <div class="player">
+                <h1> Player Name<br></h1>
+                <input class="name" placeholder="Type in your name..."><br>
+            </div>
+            <div class="showName"></div>
+            <h2>Rules of the Game:</h2>
+            <b>
+                <p>-Click on the radio to enable you fill in the boxes.<br><br>
+                    -Click on the buttons generated at the top-left to insert your words.<br><br>
+                    -Words that are not in the English Dictionary wouldn't be considered valid.<br><br>
+                    -Entry of the same word twice would also not be considered vaild.<br><br>
+                    -When you are done filling all your words, click on 'Next' to generate the next set of buttons.
+                </p>
+            </b>
+        </div>
+        <div class="bottom">
+            <div class="left">
+                <div id="div"></div>
+                <button class="start">START</button>
+                <button class="next">NEXT</button>
+                <button class="clear">CLEAR</button>
+                <div class="score">
+                    Score:
+                    <input type="text" disabled class="scoreMark">
+
+                </div>
+            </div>
+            <div class="right">
+                <div class="space"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="Word-Game.js"></script>
+</body>
+
+</html>

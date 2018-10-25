@@ -1,0 +1,141 @@
+body{
+    background-color: brown;
+  
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.under{
+    display: flex
+}
+input  {
+    width: 20px;
+    margin: 10px;
+}
+ .radio{
+    margin-left: 0%
+}
+#style, #style1{
+    margin-left: 10px;
+    display: none;
+    color:green;
+    font-size: 18px;
+   
+}
+.button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.top{
+    color:whitesmoke;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 40vw;
+    font-size: 30px;
+
+}
+.start{
+    width: 150px;
+    height: 50px;
+    background-color:yellow;
+     margin-top: 66vh;
+    margin-left: 19vw; 
+    border-radius: 19px;
+}
+.start:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.button,.next:hover{
+    background-color: green;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: peru;
+    cursor: pointer;
+}
+.clear:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.next{
+    border-radius: 19px;
+    display: none;
+    margin-top: 40px;
+}
+.clear{
+    border-radius: 19px;
+    display: none;  
+    margin-left: 20px;
+}
+.score{
+    color:red;
+    display: none;
+}
+.scoreMark{
+    color: green;
+    margin-left: 0%;
+    width: 30px;
+    text-align: center;
+    /* display: none; */
+
+}
+.rules{
+    display: inline-block;
+    background-color: pink;
+    border-radius: 10px;
+    font-family: 'Playfair Display', serif;
+    width: 300px;
+}
+.bottom{
+    display: flex;
+    margin-top: 0%;
+    display: inline-block;
+    display: flex;
+    width: 50%;
+    height: 75%;
+    padding: 20px;
+    border-radius: 10px;
+
+
+    background-image: url(logo2.jpg);
+background-size: contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+.right{
+    display: inline-block;
+    /* border: red 1px solid; */
+    flex: 1
+}
+.left{
+    display: inline-block;
+    /* border: red 1px solid; */
+    flex: 1
+}
+.name{
+    width: 170px;
+    height: 30px;
+    margin: 0%;
+    margin-left: 10px;
+}
+h1,h2{
+    margin-left: 8px;
+    margin-bottom: 0%;
+    margin-top: 10px;
+}
+p{
+    margin-top: 0%;
+    margin-left: 5px;
+   font-size: 15px;
+}
+.showName{
+  
+    font-family: 'Bree Serif', serif;
+    margin: 10px;
+    font: bold;
+    font-size: 25px;
+    margin-bottom: 0%;
+    color:green;
+}
